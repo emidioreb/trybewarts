@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 60px;
+  justify-content: space-between;
+}
+
+img .trybewarts-header-logo {
+  justify-content: flex-start;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  justify-content: space-around;
+}
+
+#user {
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  width: 150px;
+  padding: 5px;
+}
+
+#password {
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  width: 150px;
+  padding: 5px;
+}
+
+#buttonSubmit {
+  width: 80px;
+  font-size: 18px;
+  background-color: aqua;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+}
+
+#evaluation-form {
+  flex-direction: column;
+  display: flex;
+  width: 675px;
+}
+
+.all {
+  width: 560px;
+  border-radius: 20px;
+}
+
+.all h2 {
+  text-align: center;
+  padding: 30px 0 50px;
+  width: 500px;
+}
+
+#name-completed {
+  margin-bottom: 10px;
+}
+
+#input-name {
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  width: 265px;
+  padding: 5px;
+}
+
+#input-lastname {
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  width: 265px;
+  padding: 5px;
+}
+
+#email-house {
+  margin-bottom: 20px;
+}
+
+#input-email {
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  width: 265px;
+  padding: 5px;
+}
+
+#house {
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  width: 225px;
+  padding: 5px;
+}
+
+hr {
+  width: 560px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.family-content {
+  display: flex;
+  width: 560px;
+  height: 200px;
+}
+
+.family {
+  flex-flow: row wrap;
+  padding: 30px 30px 30px 0;
+  width: 200px;
+  height: 150px;
+}
+
+.content {
+  padding: 30px 30px 30px 0;
+  width: 300px;
+  height: 150px;
+}
+
+#avaliation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#textarea {
+  font-size: 18px;
+  width: 560px;
+  height: 100px;
+}
+
+#infos {
+  padding: 20px 0;
+}
+
+#submit-btn {
+  width: 560px;
+  font-size: 18px;
+  background-color: rgba(60, 123, 238, 0.993);
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  color: aliceblue;
+  margin-bottom: 100px;
+}
+
+.getContent {
+  margin: 7px;
+}
+
+#footer {
+  text-align: center;
+  background-color: cornflowerblue;
+  color: ivory;
+}
